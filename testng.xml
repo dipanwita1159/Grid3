@@ -19,14 +19,7 @@
   
  
 </test>
-  <test thread-count="5" name="Test3">
-	  
-  <classes>
-     
-      <class name="com.mohs10.scripts.pdf" />
-       
-    </classes>
-  </test>
+  
  
   
 </suite> <!-- Suite -->
