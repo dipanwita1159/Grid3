@@ -24,10 +24,10 @@ public class HomeTest extends StartBrowser {
 
 		
 		
-		  int rowcount = XLUtils.getRowCount(excelfile, excelsheet); for (int i = 1; i
-		  < rowcount; i++) { String Email =
-		  XLUtils.getStringCellData(excelfile,excelsheet, i, 0); String Pwd =
-		  XLUtils.getStringCellData(excelfile, excelsheet, i, 1);}
+		  //int rowcount = XLUtils.getRowCount(excelfile, excelsheet); for (int i = 1; i
+		 // < rowcount; i++) { String Email =
+		  //XLUtils.getStringCellData(excelfile,excelsheet, i, 0); String Pwd =
+		  //XLUtils.getStringCellData(excelfile, excelsheet, i, 1);}
 		 
 		 
 		driver = StartBrowser.launchapp("firefox", "https://mohs10.io/");
@@ -52,10 +52,10 @@ public class HomeTest extends StartBrowser {
 	  CommonFuns hm2 = new CommonFuns();
 	  
 	  
-	  int rowcount = XLUtils.getRowCount(excelfile, excelsheet); for(int
-	  i=1;i<rowcount;i++) { String Email = XLUtils.getStringCellData(excelfile,
-	  excelsheet, i, 0); String Pwd = XLUtils.getStringCellData(excelfile,
-	  excelsheet, i, 1);}
+	  //int rowcount = XLUtils.getRowCount(excelfile, excelsheet); for(int
+	  //i=1;i<rowcount;i++) { String Email = XLUtils.getStringCellData(excelfile,
+	 // excelsheet, i, 0); String Pwd = XLUtils.getStringCellData(excelfile,
+	 // excelsheet, i, 1);}
 	  
 	  driver=StartBrowser.launchapp("chrome","https://mohs10.io/");
 	  //hm2.CommonsFun("Dipanwita","dipanwita.chakraborty@mohs10.io", "abc","abd");
