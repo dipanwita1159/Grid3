@@ -61,7 +61,7 @@ public class StartBrowser {
 			capability.setBrowserName("firefox");
 			capability.setPlatform(Platform.WIN10);
 			FirefoxOptions Options=new FirefoxOptions();
-			Options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+			//Options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 			Options.merge(capability);
 			String Node = "http://localhost:4444/wd/hub";
 			driver = new RemoteWebDriver(new URL(Node), Options);
@@ -98,7 +98,7 @@ public class StartBrowser {
 			capability.setBrowserName("msedge");
 			capability.setPlatform(Platform.ANY);
 			EdgeOptions Options=new EdgeOptions();
-			Options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+			//Options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
 			Options.merge(capability);
 			String Node = "http://localhost:4444/wd/hub";
 			driver = new RemoteWebDriver(new URL(Node), Options);
